@@ -3,7 +3,6 @@ package main
 
 import (
 	"fmt"
-	"go-Practice/challenges"
 )
 
 func main() {
@@ -17,7 +16,8 @@ func main() {
 	//fmt.Println(goroutines.FactorialGo(5))
 	//app.MatrixProc()
 	//fmt.Println(goroutines.IsPrimeGo(17))
-	challenges.WordDecoder()
+	//challenges.WordDecoder()
+	//challenges.QueueMain()
 }
 
 func evenSum(list []int) int {
