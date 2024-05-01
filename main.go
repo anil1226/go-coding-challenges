@@ -17,7 +17,7 @@ func main() {
 	//app.MatrixProc()
 	//fmt.Println(goroutines.IsPrimeGo(17))
 	//challenges.WordDecoder()
-	//challenges.CheckPermutationsMain()
+	//challenges.WordFrequencyMain()
 }
 
 func evenSum(list []int) int {

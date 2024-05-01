@@ -9,6 +9,14 @@ func CheckPermutations(str1, str2 string) bool {
 	if len(str1) != len(str2) {
 		return false
 	}
+
+	//simpler
+	// for _, v := range str1 {
+	// 	if !strings.ContainsRune(str2, v) {
+	// 		return false
+	// 	}
+	// }
+
 	str1Map := getMapofString(str1)
 	str2Map := getMapofString(str2)
 
