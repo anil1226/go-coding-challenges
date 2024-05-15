@@ -18,6 +18,7 @@ func main() {
 	//fmt.Println(goroutines.IsPrimeGo(17))
 	//challenges.WordDecoder()
 	//challenges.WordFrequencyMain()
+	//challenges.PanicMain()
 }
 
 func evenSum(list []int) int {
